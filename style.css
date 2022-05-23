@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0;}
+body{ background-color: #0088ff; font-family: 'yg-jalnan'; text-align: center; }
+h1{ margin: 0 auto; margin-bottom: 10px; color: #0088ff; width: 656px; height: 50px; line-height: 50px; background-color: #fff; border-radius: 50px; }
+section{ margin: 0 auto; padding-top: 100px; width: 1000px; height: 800px; }
+#picSet{ display: inline-block; margin: 0 auto; border: 8px solid #fff; border-radius: 10px; width: 640px; height: 427px; position: relative; overflow: hidden; }
+#picSet img{ position: absolute; transition: left 0.5s; }
+button{ display: inline-block; position: relative; overflow: hidden; top:-213.5px; width: 50px; height: 50px; color: #fff; background-color: #ffffff00; border: none; font-size: 30px; font-family: 'yg-jalnan'; }
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
